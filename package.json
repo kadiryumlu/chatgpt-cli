@@ -1,0 +1,35 @@
+{
+  "name": "chatgpt-cli",
+  "version": "1.0.0",
+  "description": "ChatGPT CLI tool",
+  "main": "./index.js",
+  "bin": {
+    "chatgpt-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadiryumlu/chatgpt-cli.git"
+  },
+  "keywords": [
+    "ChatGPT",
+    "CLI",
+    "prompt"
+  ],
+  "author": {
+    "name": "Kadir Yumlu",
+    "email": "kadiryumlu@outlook.com",
+    "url": "https://kadiryumlu.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadiryumlu/chatgpt-cli/issues"
+  },
+  "homepage": "https://github.com/kadiryumlu/chatgpt-cli#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
